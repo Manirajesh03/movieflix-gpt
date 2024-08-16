@@ -82,11 +82,11 @@ const Login = () => {
         <img
           src={require("../assets/login-banner.jpg")}
           alt="login-banner"
-          className="h-full"
+          className="h-full object-cover"
         />
       </div>
       <form
-        className="absolute bg-black w-4/12 max-[640px]:w-10/12 max-[992px]:w-9/12 max-[640px]:p-14 my-36 mx-auto right-0 left-0 text-white px-16 py-16 flex flex-col justify-center bg-opacity-80 rounded-lg"
+        className="absolute bg-black w-4/12 max-[640px]:w-10/12 max-[1200px]:w-9/12 max-[640px]:p-14 my-36 mx-auto right-0 left-0 text-white px-16 py-16 flex flex-col justify-center bg-opacity-80 rounded-lg"
         onSubmit={(e) => e.preventDefault()}
       >
         {errMsg !== null && (
